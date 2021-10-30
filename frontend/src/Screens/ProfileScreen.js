@@ -12,7 +12,6 @@ const ProfileScreen = () => {
   const { userInfo } = userLoginPortFolio;
   const history = useHistory();
 
-  console.log(userInfo);
   useEffect(() => {
     if (!userInfo) {
       history.push("/");
