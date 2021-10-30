@@ -25,7 +25,6 @@ const ProfileScreen = () => {
 
   return (
     <>
-      <h1>YAsh</h1>
       <h1>Name : {userInfo?.name}</h1>
       <h1>
         services :
